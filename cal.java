@@ -18,18 +18,22 @@ public class Calculator {
 
         switch (operator) {
             case '+':
+                System.out.print("Addition");
                 result = num1 + num2;
                 System.out.println("Result: " + result);
                 break;
             case '-':
+                System.out.print("Sub");
                 result = num1 - num2;
                 System.out.println("Result: " + result);
                 break;
             case '*':
+                System.out.print("MUL");
                 result = num1 * num2;
                 System.out.println("Result: " + result);
                 break;
             case '/':
+                System.out.print("dIV");
                 if (num2 != 0) {
                     result = num1 / num2;
                     System.out.println("Result: " + result);
